@@ -158,7 +158,7 @@ const content = {
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
-      "Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026)",
+      "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
     ],
     updated: "Last updated: August 2026",
     language: "中文",
@@ -226,7 +226,7 @@ const content = {
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
-      "中国模式识别与计算机视觉大会（PRCV 2026）",
+      "中国模式识别与计算机视觉大会（PRCV）",
     ],
     updated: "最后更新：2026 年 8 月",
     language: "EN",
