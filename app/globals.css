@@ -456,6 +456,10 @@ a:hover {
   margin-bottom: 6px;
 }
 
+.service-group + .service-group {
+  margin-top: 18px;
+}
+
 .content footer {
   padding-top: 21px;
   color: var(--muted);

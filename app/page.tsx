@@ -151,14 +151,14 @@ const content = {
       },
     ],
     serviceTitle: "Academic Service",
-    reviewer: "Journal Reviewer",
-    service: [
+    journalReviewer: "Journal Reviewer",
+    journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
     ],
-    reviewer: "Conference Reviewer",
-    service: [
-      "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
+    conferenceReviewer: "Conference Reviewer",
+    conferenceService: [
+      "Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026)",
     ],
     updated: "Last updated: August 2026",
     language: "中文",
@@ -219,10 +219,14 @@ const content = {
       },
     ],
     serviceTitle: "学术服务",
-    reviewer: "审稿人",
-    service: [
+    journalReviewer: "期刊审稿人",
+    journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+    ],
+    conferenceReviewer: "会议审稿人",
+    conferenceService: [
+      "中国模式识别与计算机视觉大会（PRCV 2026）",
     ],
     updated: "最后更新：2026 年 8 月",
     language: "EN",
@@ -377,10 +381,18 @@ export default function Home() {
 
           <section id="service">
             <h2>📋 {t.serviceTitle}</h2>
-            <h3 className="subheading">{t.reviewer}</h3>
-            <ul className="service-list">
-              {t.service.map((journal) => <li key={journal}>{journal}</li>)}
-            </ul>
+            <div className="service-group">
+              <h3 className="subheading">{t.journalReviewer}</h3>
+              <ul className="service-list">
+                {t.journalService.map((journal) => <li key={journal}>{journal}</li>)}
+              </ul>
+            </div>
+            <div className="service-group">
+              <h3 className="subheading">{t.conferenceReviewer}</h3>
+              <ul className="service-list">
+                {t.conferenceService.map((conference) => <li key={conference}>{conference}</li>)}
+              </ul>
+            </div>
           </section>
 
           <footer>
