@@ -151,10 +151,14 @@ const content = {
       },
     ],
     serviceTitle: "Academic Service",
-    reviewer: "Reviewer",
+    reviewer: "Journal Reviewer",
     service: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+    ],
+    reviewer: "Conference Reviewer",
+    service: [
+      "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
     ],
     updated: "Last updated: August 2026",
     language: "中文",
