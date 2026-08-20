@@ -155,6 +155,7 @@ const content = {
     journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+      "Neural Networks",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -223,6 +224,7 @@ const content = {
     journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+      "Neural Networks",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
