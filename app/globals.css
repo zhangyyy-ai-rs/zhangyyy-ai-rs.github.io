@@ -279,6 +279,11 @@ a:hover {
   font-size: 13px;
 }
 
+.news-list {
+  display: grid;
+  gap: 10px;
+}
+
 .news-item {
   position: relative;
   display: grid;

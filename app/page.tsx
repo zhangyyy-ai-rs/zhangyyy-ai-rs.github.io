@@ -97,17 +97,17 @@ const content = {
     navIds: ["about", "research", "news", "publications", "education", "service"],
     name: "Yao Zhang",
     affiliation: "Wuhan University",
-    role: "Incoming Master’s Student",
+    role: "Master’s Student",
     tagline: "Exploring visual and multimodal intelligence for Earth observation.",
     location: "Wuhan, China",
     aboutTitle: "About Me",
     about: (
       <>
-        Hi! I am <strong>Yao Zhang (张耀)</strong>, an incoming Master’s student in
+        Hi! I am <strong>Yao Zhang (张耀)</strong>, a Master’s student in
         Surveying Engineering at <a href="https://www.whu.edu.cn/" target="_blank" rel="noreferrer">Wuhan University</a>.
-        I will join the State Key Laboratory of Information Engineering in
-        Surveying, Mapping and Remote Sensing in September 2026. Before that, I
-        received my B.Eng. in Mechanical Design, Manufacturing and Automation
+        I am with the State Key Laboratory of Information Engineering in Surveying,
+        Mapping and Remote Sensing. I received my B.Eng. in Mechanical Design,
+        Manufacturing and Automation
         from Northeast Forestry University in 2026.
       </>
     ),
@@ -126,7 +126,18 @@ const content = {
       </>
     ),
     newsTitle: "News",
-    news: "I launched my personal academic website.",
+    news: [
+      {
+        date: "2026.09",
+        dateTime: "2026-09",
+        text: "I began my Master’s studies in Surveying Engineering at Wuhan University.",
+      },
+      {
+        date: "2026.08",
+        dateTime: "2026-08",
+        text: "I launched my personal academic website.",
+      },
+    ],
     publicationsTitle: "Selected Publications",
     publicationNote:
       "Selected first-author and equal-contribution papers. * denotes equal contribution.",
@@ -162,7 +173,7 @@ const content = {
     conferenceService: [
       "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
     ],
-    updated: "Last updated: August 2026",
+    updated: "Last updated: September 2026",
     language: "中文",
     theme: "Toggle dark mode",
   },
@@ -171,15 +182,15 @@ const content = {
     navIds: ["about", "research", "news", "publications", "education", "service"],
     name: "张耀",
     affiliation: "武汉大学",
-    role: "即将入学硕士研究生",
+    role: "硕士研究生",
     tagline: "探索面向地球观测的视觉与多模态智能。",
     location: "中国 · 武汉",
     aboutTitle: "关于我",
     about: (
       <>
-        你好！我是<strong>张耀（Yao Zhang）</strong>，即将进入
+        你好！我是<strong>张耀（Yao Zhang）</strong>，现为
         <a href="https://www.whu.edu.cn/" target="_blank" rel="noreferrer">武汉大学</a>
-        攻读测绘工程硕士，并将于 2026 年 9 月加入测绘遥感信息工程国家重点实验室。
+        测绘工程硕士研究生，就读于测绘遥感信息工程国家重点实验室。
         此前，我于 2026 年在东北林业大学获得机械设计制造及其自动化专业工学学士学位。
       </>
     ),
@@ -197,7 +208,18 @@ const content = {
       </>
     ),
     newsTitle: "动态",
-    news: "创建了我的个人学术主页。",
+    news: [
+      {
+        date: "2026.09",
+        dateTime: "2026-09",
+        text: "正式开始在武汉大学攻读测绘工程硕士学位。",
+      },
+      {
+        date: "2026.08",
+        dateTime: "2026-08",
+        text: "创建了我的个人学术主页。",
+      },
+    ],
     publicationsTitle: "精选论文",
     publicationNote: "仅选取第一作者及共同一作论文。* 表示共同贡献。",
     paper: "论文",
@@ -232,7 +254,7 @@ const content = {
     conferenceService: [
       "中国模式识别与计算机视觉大会（PRCV）",
     ],
-    updated: "最后更新：2026 年 8 月",
+    updated: "最后更新：2026 年 9 月",
     language: "EN",
     theme: "切换深浅色模式",
   },
@@ -324,9 +346,13 @@ export default function Home() {
 
           <section id="news">
             <h2>📰 {t.newsTitle}</h2>
-            <div className="news-item">
-              <time>2026.08</time>
-              <span>{t.news}</span>
+            <div className="news-list">
+              {t.news.map((item) => (
+                <div className="news-item" key={item.date}>
+                  <time dateTime={item.dateTime}>{item.date}</time>
+                  <span>{item.text}</span>
+                </div>
+              ))}
             </div>
           </section>
 

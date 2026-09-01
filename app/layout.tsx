@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://zhangyyy-ai-rs.github.io"),
   title: "Yao Zhang · Remote Sensing & Multimodal Intelligence",
   description:
-    "Yao Zhang is an incoming Master's student at Wuhan University researching remote sensing foundation models, multimodal large language models, and multimodal reasoning.",
+    "Yao Zhang is a Master's student at Wuhan University researching remote sensing foundation models, multimodal large language models, and multimodal reasoning.",
   keywords: [
     "Yao Zhang",
     "张耀",
