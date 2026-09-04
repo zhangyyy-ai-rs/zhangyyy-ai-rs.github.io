@@ -166,6 +166,7 @@ const content = {
     journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+      "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)",
       "Neural Networks",
       "Journal of Systems Architecture",
     ],
@@ -247,6 +248,7 @@ const content = {
     journalService: [
       "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
       "IEEE Geoscience and Remote Sensing Letters (GRSL)",
+      "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)",
       "Neural Networks",
       "Journal of Systems Architecture",
     ],
