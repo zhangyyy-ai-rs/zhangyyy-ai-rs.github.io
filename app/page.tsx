@@ -169,6 +169,7 @@ const content = {
       "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)",
       "Neural Networks",
       "Journal of Systems Architecture",
+      "Array",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -251,6 +252,7 @@ const content = {
       "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)",
       "Neural Networks",
       "Journal of Systems Architecture",
+      "Array",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
