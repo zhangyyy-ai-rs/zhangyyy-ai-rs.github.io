@@ -130,6 +130,11 @@ const content = {
       {
         date: "2026.09",
         dateTime: "2026-09",
+        text: "One paper has been accepted by IEEE GRSL.",
+      },
+      {
+        date: "2026.09",
+        dateTime: "2026-09",
         text: "I began my Master’s studies in Surveying Engineering at Wuhan University.",
       },
       {
@@ -211,6 +216,11 @@ const content = {
     ),
     newsTitle: "动态",
     news: [
+      {
+        date: "2026.09",
+        dateTime: "2026-09",
+        text: "一篇论文被 IEEE GRSL 接收。",
+      },
       {
         date: "2026.09",
         dateTime: "2026-09",
@@ -352,7 +362,7 @@ export default function Home() {
             <h2>📰 {t.newsTitle}</h2>
             <div className="news-list">
               {t.news.map((item) => (
-                <div className="news-item" key={item.date}>
+                <div className="news-item" key={`${item.date}-${item.text}`}>
                   <time dateTime={item.dateTime}>{item.date}</time>
                   <span>{item.text}</span>
                 </div>
