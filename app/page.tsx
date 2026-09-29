@@ -7,6 +7,20 @@ type Language = "en" | "zh";
 const publications = [
   {
     year: "2026",
+    venue: "arXiv",
+    title:
+      "The Earth in One Gaze: Training-Free Active Focus for UHR Remote Sensing Understanding",
+    authors: (
+      <>
+        <strong>Yao Zhang</strong>, Pengyu Dai, Wei Guo, Jian Liang, Jian Song,
+        Yafei Ou, Hongruixuan Chen, Naoto Yokoya
+      </>
+    ),
+    journal: "arXiv preprint arXiv:2609.31747",
+    paper: "https://arxiv.org/abs/2609.31747",
+  },
+  {
+    year: "2026",
     venue: "IEEE TGRS",
     title:
       "SKYDET: An End-to-End Multiscale Attentive Detection Network From Foundation Models for Small Objects in Remote Sensing Images",
@@ -129,6 +143,11 @@ const content = {
     news: [
       {
         date: "2026.09",
+        dateTime: "2026-09-23",
+        text: "Our preprint “The Earth in One Gaze” is now available on arXiv.",
+      },
+      {
+        date: "2026.09",
         dateTime: "2026-09",
         text: "One paper has been accepted by IEEE GRSL.",
       },
@@ -216,6 +235,11 @@ const content = {
     ),
     newsTitle: "动态",
     news: [
+      {
+        date: "2026.09",
+        dateTime: "2026-09-23",
+        text: "我们的预印本《The Earth in One Gaze》已发布于 arXiv。",
+      },
       {
         date: "2026.09",
         dateTime: "2026-09",
