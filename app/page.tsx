@@ -18,6 +18,8 @@ const publications = [
     ),
     journal: "arXiv preprint arXiv:2609.31747",
     paper: "https://arxiv.org/abs/2609.31747",
+    project: "https://zhangyyy-ai-rs.github.io/GazeEarth/",
+    code: "https://github.com/zhangyyy-ai-rs/GazeEarth",
   },
   {
     year: "2026",
@@ -166,6 +168,7 @@ const content = {
     publicationNote:
       "Selected first-author and equal-contribution papers. * denotes equal contribution.",
     paper: "Paper",
+    project: "Project",
     code: "Code",
     allPapers: "View all publications on Google Scholar",
     educationTitle: "Education",
@@ -259,6 +262,7 @@ const content = {
     publicationsTitle: "精选论文",
     publicationNote: "仅选取第一作者及共同一作论文。* 表示共同贡献。",
     paper: "论文",
+    project: "项目主页",
     code: "代码",
     allPapers: "在 Google Scholar 查看全部论文",
     educationTitle: "教育经历",
@@ -421,6 +425,7 @@ export default function Home() {
                         <p className="journal"><em>{publication.journal}, {publication.year}</em></p>
                         <div className="paper-links">
                           <a href={publication.paper} target="_blank" rel="noreferrer">{t.paper}</a>
+                          {publication.project && <a href={publication.project} target="_blank" rel="noreferrer">{t.project}</a>}
                           {publication.code && <a href={publication.code} target="_blank" rel="noreferrer">{t.code}</a>}
                         </div>
                       </article>
