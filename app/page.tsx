@@ -198,6 +198,7 @@ const content = {
       "Journal of Systems Architecture",
       "Array",
       "Computer Vision and Image Understanding",
+      "Knowledge-Based Systems",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -293,6 +294,7 @@ const content = {
       "Journal of Systems Architecture",
       "Array",
       "Computer Vision and Image Understanding",
+      "Knowledge-Based Systems",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
