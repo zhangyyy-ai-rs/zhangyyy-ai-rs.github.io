@@ -199,6 +199,7 @@ const content = {
       "Array",
       "Computer Vision and Image Understanding",
       "Knowledge-Based Systems",
+      "Computer Modeling in Engineering & Sciences",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -295,6 +296,7 @@ const content = {
       "Array",
       "Computer Vision and Image Understanding",
       "Knowledge-Based Systems",
+      "Computer Modeling in Engineering & Sciences",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
