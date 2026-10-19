@@ -225,6 +225,9 @@ a:hover {
 .intro-section > p:first-of-type {
   font-size: 16px;
   line-height: 1.7;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: auto;
 }
 
 .research-block {
