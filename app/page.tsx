@@ -9,10 +9,25 @@ const publications = [
     year: "2026",
     venue: "arXiv",
     title:
+      "EarthJev: Efficient Visual Evidence Acquisition and Decision for UHR Remote Sensing Understanding",
+    authors: (
+      <>
+        Pengyu Dai*, <strong>Yao Zhang*</strong>, Jian Song, Junjue Wang, Yafei
+        Ou, Yuzeng Chen, Junshi Xia, Hongruixuan Chen, Naoto Yokoya
+      </>
+    ),
+    journal: "arXiv preprint arXiv:2611.10005",
+    paper: "https://arxiv.org/abs/2611.10005",
+    code: "https://github.com/Da1daidaidai/EarthJev",
+  },
+  {
+    year: "2026",
+    venue: "arXiv",
+    title:
       "The Earth in One Gaze: Training-Free Active Focus for UHR Remote Sensing Understanding",
     authors: (
       <>
-        <strong>Yao Zhang</strong>, Pengyu Dai, Wei Guo, Jian Liang, Jian Song,
+        <strong>Yao Zhang*</strong>, Pengyu Dai*, Wei Guo, Jian Liang, Jian Song,
         Yafei Ou, Hongruixuan Chen, Naoto Yokoya
       </>
     ),
@@ -144,6 +159,11 @@ const content = {
     newsTitle: "News",
     news: [
       {
+        date: "2026.11",
+        dateTime: "2026-11-10",
+        text: "Our preprint “EarthJev” is now available on arXiv.",
+      },
+      {
         date: "2026.09",
         dateTime: "2026-09-23",
         text: "Our preprint “The Earth in One Gaze” is now available on arXiv.",
@@ -243,6 +263,11 @@ const content = {
     ),
     newsTitle: "动态",
     news: [
+      {
+        date: "2026.11",
+        dateTime: "2026-11-10",
+        text: "我们的预印本《EarthJev》已发布于 arXiv。",
+      },
       {
         date: "2026.09",
         dateTime: "2026-09-23",
