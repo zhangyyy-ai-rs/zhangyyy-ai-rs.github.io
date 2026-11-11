@@ -222,6 +222,7 @@ const content = {
       "Computer Modeling in Engineering & Sciences",
       "Optics & Laser Technology",
       "Neurocomputing",
+      "Image and Vision Computing",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -326,6 +327,7 @@ const content = {
       "Computer Modeling in Engineering & Sciences",
       "Optics & Laser Technology",
       "Neurocomputing",
+      "Image and Vision Computing",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
