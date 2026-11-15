@@ -226,6 +226,7 @@ const content = {
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
+      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)",
     ],
     updated: "Last updated: November 2026",
@@ -331,6 +332,7 @@ const content = {
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
+      "IEEE/CVF 计算机视觉与模式识别会议（CVPR）",
       "中国模式识别与计算机视觉大会（PRCV）",
     ],
     updated: "最后更新：2026 年 11 月",
