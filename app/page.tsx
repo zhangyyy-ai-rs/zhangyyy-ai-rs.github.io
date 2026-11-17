@@ -223,6 +223,7 @@ const content = {
       "Optics & Laser Technology",
       "Neurocomputing",
       "Image and Vision Computing",
+      "Infrared Physics & Technology",
     ],
     conferenceReviewer: "Conference Reviewer",
     conferenceService: [
@@ -329,6 +330,7 @@ const content = {
       "Optics & Laser Technology",
       "Neurocomputing",
       "Image and Vision Computing",
+      "Infrared Physics & Technology",
     ],
     conferenceReviewer: "会议审稿人",
     conferenceService: [
