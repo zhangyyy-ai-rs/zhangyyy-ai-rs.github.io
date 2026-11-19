@@ -409,11 +409,13 @@ a:hover {
   text-decoration: none;
 }
 
-.education-list {
+.education-list,
+.experience-list {
   border-top: 1px solid var(--line);
 }
 
-.education-item {
+.education-item,
+.experience-item {
   display: flex;
   justify-content: space-between;
   gap: 30px;
@@ -421,28 +423,33 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
-.education-item h3 {
+.education-item h3,
+.experience-item h3 {
   margin: 0 0 4px;
   color: var(--heading);
   font-size: 17px;
 }
 
-.education-item h3 a {
+.education-item h3 a,
+.experience-item h3 a {
   color: var(--heading);
 }
 
-.education-item p {
+.education-item p,
+.experience-item p {
   margin: 2px 0 !important;
   color: var(--muted);
   font-size: 13px;
 }
 
-.education-item .degree {
+.education-item .degree,
+.experience-item .degree {
   color: var(--text);
   font-size: 14px;
 }
 
-.education-item time {
+.education-item time,
+.experience-item time {
   flex: 0 0 auto;
   color: var(--muted);
   font-size: 13px;
@@ -572,11 +579,13 @@ a:hover {
     position: static;
   }
 
-  .education-item {
+  .education-item,
+  .experience-item {
     display: block;
   }
 
-  .education-item time {
+  .education-item time,
+  .experience-item time {
     display: block;
     margin-top: 7px;
   }

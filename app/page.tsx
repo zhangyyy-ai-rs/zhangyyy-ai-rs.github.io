@@ -124,8 +124,8 @@ const publications = [
 
 const content = {
   en: {
-    nav: ["About", "Research", "News", "Publications", "Education", "Service"],
-    navIds: ["about", "research", "news", "publications", "education", "service"],
+    nav: ["About", "Research", "News", "Publications", "Experience", "Education", "Service"],
+    navIds: ["about", "research", "news", "publications", "experience", "education", "service"],
     name: "Yao Zhang",
     affiliation: "Wuhan University",
     role: "Master’s Student",
@@ -160,6 +160,11 @@ const content = {
     news: [
       {
         date: "2026.11",
+        dateTime: "2026-11-19",
+        text: "I joined Baidu as an intern.",
+      },
+      {
+        date: "2026.11",
         dateTime: "2026-11-10",
         text: "Our preprint “EarthJev” is now available on arXiv.",
       },
@@ -191,6 +196,15 @@ const content = {
     project: "Project",
     code: "Code",
     allPapers: "View all publications on Google Scholar",
+    experienceTitle: "Experience",
+    experience: [
+      {
+        organization: "Baidu",
+        website: "https://www.baidu.com/",
+        role: "Intern",
+        date: "2026.11 – Present",
+      },
+    ],
     educationTitle: "Education",
     education: [
       {
@@ -235,8 +249,8 @@ const content = {
     theme: "Toggle dark mode",
   },
   zh: {
-    nav: ["关于", "研究方向", "动态", "论文", "教育经历", "学术服务"],
-    navIds: ["about", "research", "news", "publications", "education", "service"],
+    nav: ["关于", "研究方向", "动态", "论文", "实习经历", "教育经历", "学术服务"],
+    navIds: ["about", "research", "news", "publications", "experience", "education", "service"],
     name: "张耀",
     affiliation: "武汉大学",
     role: "硕士研究生",
@@ -266,6 +280,11 @@ const content = {
     ),
     newsTitle: "动态",
     news: [
+      {
+        date: "2026.11",
+        dateTime: "2026-11-19",
+        text: "入职百度，开始实习。",
+      },
       {
         date: "2026.11",
         dateTime: "2026-11-10",
@@ -298,6 +317,15 @@ const content = {
     project: "项目主页",
     code: "代码",
     allPapers: "在 Google Scholar 查看全部论文",
+    experienceTitle: "实习经历",
+    experience: [
+      {
+        organization: "百度",
+        website: "https://www.baidu.com/",
+        role: "实习生",
+        date: "2026.11 – 至今",
+      },
+    ],
     educationTitle: "教育经历",
     education: [
       {
@@ -473,6 +501,21 @@ export default function Home() {
                     ))}
                   </div>
                 </div>
+              ))}
+            </div>
+          </section>
+
+          <section id="experience">
+            <h2>💼 {t.experienceTitle}</h2>
+            <div className="experience-list">
+              {t.experience.map((item) => (
+                <article className="experience-item" key={item.organization}>
+                  <div>
+                    <h3><a href={item.website} target="_blank" rel="noreferrer">{item.organization}</a></h3>
+                    <p className="degree">{item.role}</p>
+                  </div>
+                  <time>{item.date}</time>
+                </article>
               ))}
             </div>
           </section>
