@@ -212,7 +212,7 @@ const content = {
         website: "https://www.whu.edu.cn/",
         degree: "Master’s Student in Surveying Engineering",
         unit: "State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing",
-        date: "2026.09 – 2028.06",
+        date: "2026.09 – Present",
       },
       {
         school: "Northeast Forestry University",
@@ -333,7 +333,7 @@ const content = {
         website: "https://www.whu.edu.cn/",
         degree: "测绘工程硕士研究生",
         unit: "测绘遥感信息工程国家重点实验室",
-        date: "2026.09 – 2028.06",
+        date: "2026.09 – 至今",
       },
       {
         school: "东北林业大学",
